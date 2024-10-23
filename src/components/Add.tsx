@@ -47,7 +47,12 @@ function Add({
         <Toaster />
       </div>
       <div className="list">
-        <p>{users.length} contacts</p>
+        {users.length <= 1 ? (
+          <p> {users.length} contact</p>
+        ) : (
+          <p>{users.length} contacts</p>
+        )}
+
         {users.map((user) => (
           <div key={user.id} className="contact">
             <img src={user.avatar} alt="" />
