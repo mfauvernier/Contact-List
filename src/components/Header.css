@@ -1,0 +1,24 @@
+.header {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: white 2px solid;
+  padding-bottom: 30px;
+}
+
+.header-title {
+  font-size: 30px;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
